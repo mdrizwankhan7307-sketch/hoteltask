@@ -14,10 +14,10 @@ container_image = "nginx:latest"
 
 db_identifier = "prod-db"
 db_engine     = "postgres"
-db_storage  = 50
-db_username = "mdrizkha"
-db_password = "securepassword"
-azs = ["ap-south-1a", "ap-south-1b"]
+db_storage    = 50
+db_username   = "mdrizkha"
+db_password   = "securepassword"
+azs           = ["ap-south-1a", "ap-south-1b"]
 
 skip_final_snapshot       = false
 final_snapshot_identifier = "prod-db-final-snapshot"
