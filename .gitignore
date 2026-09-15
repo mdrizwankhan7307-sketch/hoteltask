@@ -1,0 +1,17 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Secrets
+.env
+.env.*
+*.pem
+
+# Docker
+*.log
+
+# Windows
+Thumbs.db
